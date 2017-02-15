@@ -6,6 +6,7 @@ package org.after90.scala
 object SomeTest {
   def main(args: Array[String]): Unit = {
     val a, b, c, d = List(1)
+    
     //a ? b ? c ? d apply (_ + _ + _ + _)
     //a |@| b |@| c |@| d apply (_ + _ + _ + _)
   }
